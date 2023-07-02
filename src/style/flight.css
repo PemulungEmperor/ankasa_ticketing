@@ -1,0 +1,36 @@
+
+
+.header{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(35, 149, 255, 1);
+}
+
+.left{
+    margin-top: 90px;
+}
+
+.right{
+    margin-top: 90px;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 2px rgb(211, 203, 203) solid;
+}
+
+.passanger{
+    background: rgba(35, 149, 255, 0.1);
+}
+
+/* body{
+    background-color: 
+    rgba(245, 246, 250, 1);
+} */
+
+.icon{
+    left: 130px;
+    top: 70px;
+}
+
+

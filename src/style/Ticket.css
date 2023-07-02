@@ -1,0 +1,7 @@
+#borderTicket{
+    border: 1px solid rgb(214, 213, 213);
+}
+
+#dottedTicket {
+    border-right: 2px dotted rgb(214, 213, 213);
+}

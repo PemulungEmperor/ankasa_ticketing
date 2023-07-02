@@ -1,0 +1,16 @@
+.profilelink:hover{
+    color: rgb(0, 157, 219);
+}
+
+.profilelinkred:hover{
+    color: red;
+}
+
+#nationTag {
+    font-size: larger;
+}
+
+.form-control {
+   border: none;
+   border-bottom: 2px rgb(211, 203, 203) solid;
+}

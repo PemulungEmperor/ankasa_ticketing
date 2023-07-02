@@ -1,0 +1,26 @@
+body {
+  background-color: #f5f6fa;
+}
+
+.btn-primary:hover {
+  box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+}
+
+.view-detail:hover {
+  cursor: pointer;
+  color: #1a6cb8;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+  /* Header */
+
+  /* Body */
+  /* .selectTicket {
+    font-size: 10px;
+  } */
+}
+
+@media screen and (max-width: 671px) {
+}
