@@ -249,7 +249,7 @@ const Admin = () => {
                     <input type="file" name="photo" className="form-control" onChange={handleUploadChange} required />
                   </div>
                   <div className="d-flex justify-content-center">
-                    <img className="img-fluid" src={previewImage ? previewImage : ""} alt="" style={{ width: "100px", height: "100px", borderRadius: "100px" }} />
+                    <img className="img-fluid" src={previewImage ? previewImage : ""} alt="" style={{ width: "100px", height: "100px", borderRadius: "100%" }} />
                   </div>
                 </div>
               </div>
