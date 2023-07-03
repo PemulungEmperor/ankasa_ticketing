@@ -82,7 +82,7 @@ const Navbar = () => {
             ) : (
               ""
             )}
-            <img src={"/img/userProfile/" + data.photo_path} alt="Profile" className="w-[50px] h-[50px] border-2 border-primary rounded-full object-cover" />
+            <img src={data.photo_path} alt="Profile" className="w-[50px] h-[50px] border-2 border-primary rounded-full object-cover" />
           </Link>
         ) : (
           <Link to={"/login"}>

@@ -55,9 +55,7 @@ const FlightDetail = () => {
                           <p>Passangers : 1 Adult</p>
                         </div>
                         <div className="form-check form-switch">
-                          <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
-                            Some Contact Person
-                          </label>
+                          <label className="form-check-label">Some Contact Person</label>
                           <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
                         </div>
                       </div>
@@ -99,8 +97,8 @@ const FlightDetail = () => {
                   <ul className="list-group list-group-flush">
                     <li className="list-group-item">
                       <div className="form-check">
-                        <input className="form-check-input" type="checkbox" defaultValue="" id="flexCheckDefault" />
-                        <label className="form-check-label text-primary" htmlFor="flexCheckDefault">
+                        <input className="form-check-input" type="checkbox" defaultValue="" id="insurance" />
+                        <label className="form-check-label text-primary" htmlFor="insurance">
                           Travel Insurance
                         </label>
                       </div>
@@ -147,16 +145,14 @@ const FlightDetail = () => {
                     </div>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="checkbox" defaultValue="" id="flexCheckDefault" />
-                    <label className="form-check-label text-primary" htmlFor="flexCheckDefault">
+                    <input className="form-check-input" type="checkbox" defaultValue="" id="refund" />
+                    <label className="form-check-label text-primary" htmlFor="refund">
                       Refundable
                     </label>
                   </div>
                   <div className="form-check">
                     <input className="form-check-input" type="checkbox" defaultValue="" id="flexCheckChecked" />
-                    <label className="form-check-label text-primary" htmlFor="flexCheckChecked">
-                      Can Reschedule
-                    </label>
+                    <label className="form-check-label text-primary">Can Reschedule</label>
                   </div>
                   <div className="accordion mt-4">
                     <div className="accordion-item border-0 border-top">

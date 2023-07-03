@@ -139,7 +139,7 @@ const AllBookingAdmin = () => {
                         <div key={data.id} className="loopingCard mb-2">
                           <div className="card-body d-flex w-100">
                             <div className="img d-flex">
-                              <img src={"/img/flightLogo/" + data.photo_path} alt="" />
+                              <img src={data.photo_path} alt="" />
                               <p className="ms-4 mt-2" style={{ color: "#595959" }}>
                                 {data.airlines}
                               </p>
@@ -327,25 +327,30 @@ const AllBookingAdmin = () => {
                           </div>
                         </div>
                         <div className="row check">
-                          <label className="mb-2">Facilities :</label>
+                          <p className="mb-2" htmlFor="facilities">
+                            Facilities :
+                          </p>
                           <div className="col-3 form-check ms-3">
-                            <input className="form-check-input" type="checkbox" value={luggage} onChange={(e) => setLuggage(e.target.value)} id="flexCheckDefault" />
-                            <label className="form-check-label">Lugaggae</label>
+                            <input className="form-check-input" type="checkbox" value={luggage} onChange={(e) => setLuggage(e.target.value)} id="lugaggae" />
+                            <label className="form-check-label" htmlFor="lugaggae">
+                              Lugaggae
+                            </label>
                           </div>
                           <div className="col-3 form-check">
-                            <input className="form-check-input" type="checkbox" id="flexCheckDefault" value={meal} onChange={(e) => setMeal(e.target.value)} />
-                            <label className="form-check-label">Meal</label>
+                            <input className="form-check-input" type="checkbox" id="meal" value={meal} onChange={(e) => setMeal(e.target.value)} />
+                            <label className="form-check-label" htmlFor="meal">
+                              Meal
+                            </label>
                           </div>
                           <div className="col-3 form-check">
-                            <input className="form-check-input" type="checkbox" value={wifi} onChange={(e) => setWifi(e.target.value)} id="flexCheckDefault" />
-                            <label className="form-check-label">Wifi</label>
+                            <input className="form-check-input" type="checkbox" value={wifi} onChange={(e) => setWifi(e.target.value)} id="wifi" />
+                            <label className="form-check-label" htmlFor="wifi">
+                              Wifi
+                            </label>
                           </div>
                         </div>
                         <div>
-                          <label className="mb-2 mt-2" htmlFor="photo">
-                            {" "}
-                            Airlines Photo :{" "}
-                          </label>
+                          <label className="mb-2 mt-2"> Airlines Photo : </label>
                           <div className="input-group mb-3">
                             <input type="file" name="photo" className="form-control" onChange={handleUploadChange} required />
                           </div>

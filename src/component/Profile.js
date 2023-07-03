@@ -73,7 +73,7 @@ const Profile = () => {
     <div className="col-md-3 p-5 bg-white rounded-3 m-3">
       <div className="first-section text-center">
         <div className="profile-image d-flex justify-content-center">
-          <img src={"/img/userProfile/" + photo} className="img-fluid mb-2" style={{ maxWidth: "100px", borderRadius: "100px" }} alt="" />
+          <img src={photo} className="img-fluid mb-2" style={{ maxWidth: "100px", borderRadius: "100px" }} alt="" />
         </div>
         <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" className="btn col-md-12 border-primary text-primary fw-bold">
           Select Photo
@@ -150,16 +150,14 @@ const Profile = () => {
               </div>
               <div className="modal-body">
                 <div>
-                  <label className="mb-2" htmlFor="photo">
-                    Upload New Photo Profile :{" "}
-                  </label>
+                  <label className="mb-2">Upload New Photo Profile : </label>
                   <div className="input-group mb-3">
                     <input type="file" name="photo" className="form-control" onChange={handleUploadChange} />
                   </div>
                   <div className="d-flex justify-content-center">
                     <img
                       className="img-fluid"
-                      src={previewImage ? previewImage : photo ? "/img/userProfile/" + photo : "/img/pp.png"}
+                      src={previewImage ? previewImage : photo ? photo : "/img/pp.png"}
                       alt=""
                       style={{
                         width: "100px",

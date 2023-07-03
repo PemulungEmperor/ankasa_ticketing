@@ -68,7 +68,9 @@ const Login = () => {
             <div className="auth-content">
               <form onSubmit={handleLogin}>
                 <h2 className="mb-4 auth-header">Login</h2>
-                <input type="text" name="username" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required />
+                <div>
+                  <input type="text" name="username" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required />
+                </div>
                 <input type={passwordVisibility ? "text" : "password"} name="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
                 <div className="p-viewer">
                   {passwordVisibility ? (
