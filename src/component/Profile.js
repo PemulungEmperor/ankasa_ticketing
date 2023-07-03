@@ -57,14 +57,21 @@ const Profile = () => {
         return res.json();
       })
       .then((data) => {
+        console.log(data);
         dispatch(changePhotoPath(data.photoPath));
+        Swal.fire({
+          title: "Updated!",
+          text: "Success updated image, relogin if doesnt change!",
+          icon: "success",
+        }).then(() => {
+          navigate("/");
+          window.location.reload();
+        });
       })
+
       .catch((err) => {
         console.log(err);
       });
-    alert("Succes, Relogin if doesn't Changed!");
-    navigate("/");
-    window.location.reload();
   };
 
   useEffect(() => {}, []);
