@@ -1,3 +1,6 @@
+# Ankasa Ticketing Description
+Welcome to our project! This is project is about booking ticketing and create with ReactJS bootstrap and tailwind. Users can create account, login, update image, update profile, search for flight schedule, and see the detail ticket. Also there's admin page which can add, update, and delete a flight, if you want to become admin change the role of your user with "admin". And lastly this project is still under futher development
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
