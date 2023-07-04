@@ -154,7 +154,7 @@ const FlightDetail = () => {
                     <input className="form-check-input" type="checkbox" defaultValue="" id="flexCheckChecked" />
                     <label className="form-check-label text-primary">Can Reschedule</label>
                   </div>
-                  <div className="accordion mt-4">
+                  {/* <div className="accordion mt-4">
                     <div className="accordion-item border-0 border-top">
                       <h2 className="accordion-header" id="headingTwo">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -170,6 +170,12 @@ const FlightDetail = () => {
                         </div>
                       </div>
                     </div>
+                  </div> */}
+                  <div class="bg-white w-full sm:w-1/2 lg:w-96 mt-3 border border-gray-200 divide-y divide-gray-200">
+                    <details>
+                      <summary class="question py-3 px-4 cursor-pointer select-none w-full outline-none">Total Payment</summary>
+                      <p class="pt-1 pb-3 px-4">$145.00</p>
+                    </details>
                   </div>
                 </div>
               </div>
