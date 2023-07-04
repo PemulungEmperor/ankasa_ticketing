@@ -82,7 +82,7 @@ const Admin = () => {
       <div className="first-section text-center">
         <span className="badge rounded-pill bg-primary position-absolute">Admin</span>
         <div className="profile-image d-flex justify-content-center">
-          <img src={data.photo_path} className="img-fluid rounded-2 mb-2" style={{ maxWidth: "100px" }} alt="" />
+          <img src={data.photo_path} className="img-fluid rounded-2 mb-2" style={{ maxWidth: "100px", borderRadius: "100%" }} alt="" />
         </div>
         {/* <button className="btn col-md-12 border-primary text-primary fw-bold">
           Select Photo
