@@ -21,16 +21,31 @@ Welcome to our project! This is project is Responsive web application about book
 
 First clone or download this repo, make sure you have node in ur device and then install the dependecies
 
-```bash
-  cd "ur project path"
+Clone the project
 
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
   npm install
 ```
-After all things installed, run the project
+
+Start the server
+
 ```bash
-  npm start
+  npm run start
 ```
 If you want to use the features locally make sure you already setting the environment
+    
 
 ## Contributor
 
