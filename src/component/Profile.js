@@ -80,7 +80,7 @@ const Profile = () => {
     <div className="col-md-3 p-5 bg-white rounded-3 m-3">
       <div className="first-section text-center">
         <div className="profile-image d-flex justify-content-center">
-          <img src={photo} className="img-fluid mb-2" style={{ maxWidth: "100px", borderRadius: "100%" }} alt="" />
+          <img src={photo} className="img-fluid mb-2" style={{ width: "80px", height: "70px", borderRadius: "80px" }} alt="" />
         </div>
         <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" className="btn col-md-12 border-primary text-primary fw-bold">
           Select Photo
