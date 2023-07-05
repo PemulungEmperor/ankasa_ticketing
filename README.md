@@ -5,7 +5,7 @@ Welcome to our project! This is project is Responsive web application about book
 ![image](https://github.com/PemulungEmperor/ankasa_ticketing/assets/76174871/b2934f89-19ec-499a-9621-d070ff196327)
 
 
-## Acknowledgements
+## Demo & API Documentation
   
   - [Ankasa Ticketing](https://github.com/matiassingers/awesome-readme)
   - [Check Ankasa API Repo](https://github.com/PemulungEmperor/ankasa_collab_team2_api)
