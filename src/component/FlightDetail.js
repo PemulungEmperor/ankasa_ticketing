@@ -4,6 +4,7 @@ import Garuda from "../aset/atio/garuda-indonesia-logo-BD82882F07-seeklogo 1.png
 import Vector1 from "../aset/atio/vector 3.png";
 import Vector from "../aset/atio/Vector.png";
 import Footer from "../component/Footer";
+import { Link } from "react-router-dom";
 
 const FlightDetail = () => {
   return (
@@ -109,7 +110,9 @@ const FlightDetail = () => {
               </div>
 
               <div className="button ms-5 mt-5">
-                <button className="btn btn-primary">Proceed to Payment</button>
+                <Link to="/Booking/1" className="btn btn-primary">
+                  Proceed to Payment
+                </Link>
               </div>
             </div>
             <div className="col-md-4">
